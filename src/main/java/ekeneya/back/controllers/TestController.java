@@ -14,8 +14,8 @@ public class TestController {
 	@RequestMapping(value = "/all", method = RequestMethod.GET)
 	public ResponseEntity<List<Test>> getVilles() {
 		List<Test> lists = new ArrayList<>();
-		lists.add(new Test("2","nom 2"));
-		lists.add(new Test("1","nom 1"));
+		lists.add(new Test("2","nom 2++"));
+		lists.add(new Test("1","nom 1++"));
 		return ResponseEntity.ok(lists);
 	}
 	

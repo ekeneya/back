@@ -1,7 +1,12 @@
 package ekeneya.back.controllers;
 
-public class Test {
+import javax.persistence.Entity;
+import javax.persistence.Id;
 
+@Entity
+public class Test {
+	
+	@Id
 	private String id;
 	private String nom;
 	/**
